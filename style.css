@@ -1,0 +1,48 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 8%;
+    gap: 50px;
+}
+@media(max-width:991px){
+
+    .hero,
+    .about{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1{
+        font-size: 50px;
+    }
+
+    .hero-text h3{
+        font-size: 25px;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .skill-box{
+        grid-template-columns: 1fr;
+    }
+
+    .buttons{
+        justify-content: center;
+    }
+
+    .hero{
+        gap: 20px;
+        padding-top: 40px;
+    }
+
+    .hero-image{
+        margin-top: -80px;
+    }
+
+    .hero-image img{
+        max-width: 320px;
+    }
+}
